@@ -4,9 +4,10 @@ body{
     margin:0; 
     padding:0; 
     border:none;
-    background-image: url(website\ background.jpg);
+    background-image: url(websitebackground1.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+    
+    background-size: cover;
 
 }
 
