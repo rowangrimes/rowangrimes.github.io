@@ -26,5 +26,16 @@ function changePicture() {
 
 window.onload = changePicture;
 
+function rotateImage() {
+    var img = document.getElementById('logoan');
+    img.style.transform = 'rotate(90deg)';
+    setTimeout(loadpage, 200);
+function loadpage(){
+    window.location = "index.html"
+
+}    
+    
+    
 
 
+}
