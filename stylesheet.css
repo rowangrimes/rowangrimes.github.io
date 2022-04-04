@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    margin:0; 
+    padding:0; 
+    border:none;
+    background-image: url(website\ background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.logotext{
+    color: #c8a27c ;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    vertical-align: bottom;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    font-size: larger;
+   
+}
+.navigation a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+
+}
+.navbar{
+    display: inline-block;
+    background-color: #974928;
+    width: 100%;
+    height: 100px;
+    
+}
+.logo {
+    display: inline-block;
+    
+    
+}
+.logo img{
+    width: 80px;
+    height: auto;
+    margin-top: 15%;
+    
+   
+}
+.navigation {
+    display: inline-block;
+    width: 100%;
+    background-color: #974928;
+    
+    
+}
+.navigation li{
+    list-style: none;
+    display: inline;
+    margin: 13px;
+    padding: 0%;
+    color: #c8a27c;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
+.navigation ul{
+    padding: 0%;
+    margin: 0%;
+    text-align: right;
+    
+}
+.banner1{
+   position: absolute;
+   width: 130px;
+   height: auto;
+   transform: rotate(180deg);
+   top: 90px;
+   left: 156px;
+}
+.divider{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:active { text-decoration: none; color:#c8a27c; }
+.bprice1 a:hover { text-decoration: none; color:black; }
+.bprice1 a:focus { text-decoration: none; color:black; }
+.bprice1 a:active { text-decoration: none; color:#c8a27c; }
+
+
+
+
+
+
+
+
+
+
+
+.main1home{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.featuredbanner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -4%;
+    
+ 
+
+}
+
+.featureddisplay li{
+    list-style: none;
+    display: inline;
+}
+.featureddisplay ul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.featureddisplay img{
+    width: 300px;
+    margin-right: 100px;
+    height: auto;
+}
+
+.block1{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 30%;
+}
+.block1 img{
+    width: 200px;
+    height: auto;
+}
+.text1{
+    margin-top: 3%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    
+
+    
+    
+}
+.text1 p{
+    font-size: 2vw;
+    text-align: center;
+    
+}
+.text2{
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+    color: white;
+    font-size: xx-large;
+    
+    
+    
+}
+.block2{
+    text-align: right;
+    display:inline-block;
+    width: 90%;
+    margin-top: -10%;
+
+
+}
+.block2 img{
+    width: 400px;
+    height: auto;
+   
+    
+}
+
+.container{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+.pinfo1{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-align: left;
+    width: 20%
+
+}
+.pinfo1 p{
+    text-align: right;
+
+}
+
+.pimage1 img{
+    display: inline-block;
+    height: 200px;
+    width: auto;
+    
+}
+.pimage1{
+    display: inline-block;
+}
+.pimage11{
+    display: inline-block;
+}
+.bprice1{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.bprice1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#c8a27c;
+
+}
+
+.info{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 60%;
+    font-size: large;
+    color: white;
+}
+.map{
+    display: inline-block;
+}
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a68fb6;
+    color: #a68fb6;
+    text-align: left;
+    height: 80px;
+    display: inline-block;
+  }
+
+.footerblock1{
+    display: inline-block;
+    height: 10px;
+    width: auto;
+    vertical-align: middle;
+}
+.footerblock2{
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+}
+.footerblock1 img{
+    max-width: 200px;
+    max-height: auto;
+    vertical-align:bottom;
+
+}
+
+
+.map{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.inputcontact{
+    text-align: center;
+    width: 400px;
+    color: white;
+    margin-top: 2%;
+}
