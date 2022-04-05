@@ -77,6 +77,14 @@ body{
    top: 90px;
    left: 156px;
 }
+
+.banner2{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: 0%;
+    top: 7%;
+}
 .divider{
     height: 5px;
     width: 100%;
