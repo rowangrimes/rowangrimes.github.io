@@ -56,6 +56,8 @@ padding:0
 
 .navigation ul {
 text-align:right;
+display: flex;
+justify-content: right;
 margin:0;
 padding:0
 }
@@ -130,7 +132,8 @@ height:auto
 margin-top:3%;
 display:inline-block;
 vertical-align:top;
-color:white
+color:white;
+font-size: xx-large;
 }
 
 .text1 p {
@@ -199,9 +202,9 @@ color:#c8a27c
 display:inline-block;
 vertical-align:top;
 margin-top:2%;
-margin-left:60%;
 font-size:large;
-color:white
+color:white;
+text-align: right;
 }
 
 .map {
@@ -268,7 +271,7 @@ vertical-align:top;
 color:#974928;
 font-size:larger;
 font-weight:bolder;
-margin:5%
+margin: 5%;
 }
 
 .footer {
@@ -322,3 +325,74 @@ a:active,.bprice1 a:active {
 text-decoration:none;
 color:#c8a27c
 }
+
+@media (max-width: 700px){
+    .navigation ul{
+        flex-direction:column ;
+        height: 230px;
+    }
+    .banner2{
+        display: none;
+    }
+    .navigation ul{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .featureddisplay ul{
+        flex-direction: column;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+    .featureddisplay li{
+        margin: 20px;
+
+    }
+    .footerblock1, .footerblock2{
+        display:list-item;
+        flex-direction: column;
+    }
+    .footerblock2{
+        text-align: right;
+    }
+    main{
+        margin-bottom: 200px;
+        height: 200px;
+    }
+    .containerdisplay{
+        margin-bottom: 200px;
+    }
+    .info{
+        margin-bottom: 200px;
+        text-align: center;
+        color: black;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .block1, .text1, .block2, .text2{
+        flex-direction: column;
+        display: block;
+        text-align: right;
+        color: black;
+        text-align: center;
+    }
+    .text1 p{
+        font-size: xx-large;
+    }
+    .text h3{
+        font-size: xx-large;
+
+    }
+    .block2{
+        margin-bottom: 200px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .block1{
+        justify-content: center;
+    }
+    
+
+}
+
+
